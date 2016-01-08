@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+
+    <color name="white">#ffffff</color>
+    <color name="red">#f00</color>
+    <color name="top_menu_bg">@color/title_background</color>
+    <color name="top_menu_text">@color/white</color>
+    <color name="c_999999">#999999</color>
+    <color name="c_888888">#888888</color>
+    <color name="c_666666">#666666</color>
+    <color name="c_333333">#333333</color>
+    <color name="c_f7f7f7">#f7f7f7</color>
+    <color name="c_eaeaea">#eaeaea</color>
+    <color name="public_bg">#F5F5F5</color>
+    <color name="lgray">#f1f1f1</color>
+    <color name="public_border">#D8D8D8</color>
+    <color name="transparent">#00000000</color>
+    <color name="popwindow_bg">#44000000</color>
+    <color name="blue">#ff169aff</color>
+    <color name="darkgray">#ff808080</color>
+    <color name="text_green">#80B241</color>
+    <color name="text_blue">#4DC3DD</color>
+    <color name="title_background">#49BDCC</color>
+    <color name="black">#000000</color>
+    <color name="trans_white">#20ffffff</color>
+    <color name="shollow_red">#ff3333</color>
+    <color name="gray">#ff9a9b9c</color>
+    <color name="yes_blue">#49BDCC</color>
+    <color name="navpage">#ffffffff</color>
+    <color name="money_red">#D13232</color>
+    <color name="buy_yellow">#FFB355</color>
+    <color name="EFEFEF">#EFEFEF</color>
+    <color name="shadow_gray">#A0A0A0</color>
+    <color name="shadow_blue">#49BDCC</color>
+    <color name="light_blue">#49C2D7</color>
+    <color name="navy_red">#F05058</color>
+    <color name="navy_blue">#23D3E0</color>
+    <color name="head_blue">#F4FEFF</color>
+    
+    <color name="MyTextViewColor">#FFFFFF</color>
+</resources>

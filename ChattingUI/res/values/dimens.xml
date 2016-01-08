@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="chat_message_horizontal_padding">15dp</dimen>
+    <dimen name="chat_message_avatar_size">40dp</dimen>
+    <dimen name="chat_message_avatar_corner_radius">20dp</dimen>
+    <dimen name="chat_message_avatar_margin_top">17dp</dimen>
+    <dimen name="chat_message_bubble_margin_top">25dp</dimen>
+    <dimen name="chat_message_space_between_avatar_and_bubble">4dp</dimen>
+    <dimen name="chat_message_bubble_vertical_padding">4dp</dimen>
+    <dimen name="chat_message_bubble_start_padding">14dp</dimen>
+    <dimen name="chat_message_bubble_end_padding">8dp</dimen>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+</resources>

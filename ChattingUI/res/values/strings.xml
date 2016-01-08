@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ChattingUI</string>
+    <string name="chat_time_now">刚刚</string>
+    <string name="chat_time_x_minutes_ago">%d分钟 之前</string>
+    <string name="chat_time_x_hours_ago">%d小时 之前</string>
+    <string name="chat_time_yesterday">昨天</string>
+    <string name="media_ejected">储存卡已拔出，语音功能将暂时不可用</string>
+    <string name="media_no_memory">储存卡存储空间不足</string>
+    <string name="voice_cancel_rcd_release">松开手指，取消发送</string>
+    <string name="chatfooter_cancel_rcd_release">松开手指，取消发送</string>
+    <string name="chatfooter_releasetofinish">松开 结束</string>
+    <string name="chatfooter_presstorcd">按住 说话</string>
+    <string name="title_activity_main">@string/app_name</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+</resources>

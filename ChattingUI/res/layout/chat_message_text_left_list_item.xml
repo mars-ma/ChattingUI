@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="60dp"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/chat_message_horizontal_padding"
+    android:paddingRight="@dimen/chat_message_horizontal_padding" >
+
+    <TextView
+        android:id="@+id/chat_message_text_left_list_item_sender_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="6dp"
+        android:textColor="#979797"
+        android:textSize="11sp" />
+
+    <io.github.barbosa.messagesview.library.views.AvatarView
+        android:id="@+id/chat_message_text_left_list_item_avatar"
+        android:layout_width="@dimen/chat_message_avatar_size"
+        android:layout_height="@dimen/chat_message_avatar_size"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="-8dp"
+        android:layout_marginTop="@dimen/chat_message_avatar_margin_top"
+        android:background="@drawable/chat_avatar_background" />
+
+    <TextView
+        android:id="@+id/chat_message_text_left_list_item_message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/chat_message_space_between_avatar_and_bubble"
+        android:layout_marginStart="@dimen/chat_message_space_between_avatar_and_bubble"
+        android:layout_marginTop="@dimen/chat_message_bubble_margin_top"
+        android:layout_toEndOf="@id/chat_message_text_left_list_item_avatar"
+        android:layout_toRightOf="@id/chat_message_text_left_list_item_avatar"
+        android:background="@drawable/chatfrom_bg"
+        android:gravity="center_vertical|left"
+        android:maxWidth="200dp"
+        android:paddingBottom="@dimen/chat_message_bubble_vertical_padding"
+        android:paddingLeft="@dimen/chat_message_bubble_start_padding"
+        android:paddingRight="@dimen/chat_message_bubble_end_padding"
+        android:paddingTop="@dimen/chat_message_bubble_vertical_padding"
+        android:textColor="@android:color/darker_gray"
+        android:textIsSelectable="true" />
+
+    <!-- <ImageButton -->
+    <!-- android:id="@+id/resend" -->
+    <!-- android:layout_width="wrap_content" -->
+    <!-- android:layout_height="wrap_content" -->
+    <!-- android:layout_marginBottom="8dp" -->
+    <!-- android:layout_marginEnd="@dimen/chat_message_space_between_avatar_and_bubble" -->
+    <!-- android:layout_marginRight="@dimen/chat_message_space_between_avatar_and_bubble" -->
+    <!-- android:layout_marginTop="@dimen/chat_message_bubble_margin_top" -->
+    <!-- android:layout_toEndOf="@id/chat_message_text_left_list_item_message" -->
+    <!-- android:layout_toRightOf="@id/chat_message_text_left_list_item_message" -->
+    <!-- android:background="@drawable/msg_state_fail_resend" /> -->
+
+    <TextView
+        android:id="@+id/chat_message_text_left_list_item_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@id/chat_message_text_left_list_item_message"
+        android:layout_below="@id/chat_message_text_left_list_item_message"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="5dp"
+        android:gravity="right"
+        android:text="3 min"
+        android:textColor="#979797"
+        android:textSize="10sp" />
+
+</RelativeLayout>
